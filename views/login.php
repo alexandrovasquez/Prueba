@@ -35,7 +35,7 @@
         <div align="center" class="card card-container">
             
             <img id="profile-img" class="profile-img-card" src="../imagenes/login.jpg"/ width=20% height=30% />
-         	<form class="form-signin" method="POST" action="login.php">
+         	<form class="form-signin" method="POST" action="../models/login.php">
 
 <label>Id Usuario</label>
 <input type="text" name="Idusuario"  class="form-control" placeholder="escriba su ID">
