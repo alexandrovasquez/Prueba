@@ -10,7 +10,9 @@ if(isset($_POST['login'])){
 	$query=mysqli_query($conexion,"SELECT * FROM usuario WHERE Idusuario='".$id_per."' and clave='".$cla."'");
 	$n=mysqli_num_rows($query);
 	if($n==1){
-		
+		echo '<script>';
+		echo "alert('Paso.');";
+		echo '</script>';
 		echo "<script language='JavaScript'>";
                       
 		echo "location='../views/principal.php/'";
